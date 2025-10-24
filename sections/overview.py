@@ -1,6 +1,5 @@
 import streamlit as st
 from utils.viz import bar_chart_death, line_chart, map_chart, map_chart2
-import pandas as pd
 from utils.prep import get_filtered_data
 
 def write(df_raw, tables):

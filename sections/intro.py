@@ -2,6 +2,7 @@
 import streamlit as st
 from utils.prep import show_data_quality, cleaning, feature_engineering, validate_data
 st.set_page_config(page_title="Data Storytelling Dashboard", layout="wide")
+
 def write(df_raw, tables):
     df = tables["full"]
     st.title("🔍 Data Storytelling : How did COVID-19 hit France ?")

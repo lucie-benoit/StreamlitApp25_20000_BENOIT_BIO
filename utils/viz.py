@@ -1,4 +1,3 @@
-from turtle import st
 import altair as alt
 import pandas as pd
 from scipy.signal import find_peaks
