@@ -1,0 +1,7 @@
+streamlit
+pandas
+numpy
+altair
+geopandas # if using maps
+pydeck # optional map layer
+scipy.signal
