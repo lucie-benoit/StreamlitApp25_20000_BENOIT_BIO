@@ -1,5 +1,5 @@
 # load_data(), fetch_and_cache(), license text
-from turtle import st
+from streamlit import st
 import pandas as pd
 
 def load_data(nrows=65180, path='data/covid-hosp-txad-reg-2023-06-30-16h29.csv'):
